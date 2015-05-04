@@ -3,6 +3,8 @@ open_vestat
 
 **open\_vestat** - script for output top 20 openvz containers for cpu/disk usage
 
+License: GPLv2
+
 Install
 -------
 ```
@@ -26,6 +28,11 @@ Print help message
 - --sort-by
 
 Sorting output for cpu or disk\_time or disk\_sectors (by cpu as default)
+
+Example output
+--------------
+![Example output screen image](docs/images/example_output.png)
+
 
 Desctiption
 -----------
