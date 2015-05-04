@@ -5,9 +5,10 @@ open_vestat
 
 Install
 -------
-Put **open_vestat.pl** like **open_vestat** in $PATH dir.
-
-Put **open_vestat_bash_completion** in /etc/bash_completion.d/ if you need it.
+```
+wget --no-check-certificate https://raw.githubusercontent.com/FastVPSEestiOu/open_vestat/master/open_vestat.pl -O /usr/local/sbin/open_vestat
+wget --no-check-certificate https://raw.githubusercontent.com/FastVPSEestiOu/open_vestat/master/open_vestat_bash_completion -O /etc/bash_completion.d/open_vestat
+```
 
 Usage
 --------
